@@ -22,8 +22,9 @@ git clone -b master --depth 1 https://github.com/eamonxg/luci-theme-aurora.git
 # luci-app-nft-timecontrol
 git clone -b main --depth 1 https://github.com/sirpdboy/luci-app-timecontrol.git
 
-# adguardhome
-git clone -b 2024.09.05 --depth 1 https://github.com/XiaoBinin/luci-app-adguardhome.git
+# adguardhome-nft
+#git clone -b 2024.09.05 --depth 1 https://github.com/XiaoBinin/luci-app-adguardhome.git
+git clone https://github.com/w9315273/luci-app-adguardhome.git
 
 # lucky
 git clone -b main --depth 1 https://github.com/gdy666/luci-app-lucky.git
