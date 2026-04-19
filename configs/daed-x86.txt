@@ -1,0 +1,45 @@
+# 全量版插件（插件太多 容易编译失败，按需自己克隆修改）
+# 后面的y是编译..... n就是不编译
+CONFIG_PACKAGE_default-settings-chn=y
+
+# 主题调整
+CONFIG_PACKAGE_luci-theme-argon=y
+CONFIG_PACKAGE_luci-app-argon-config=y
+
+# 科学插件调整
+CONFIG_PACKAGE_luci-app-daed=y
+
+# luci插件调整
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-app-adguardhome=y
+CONFIG_PACKAGE_luci-app-adguardhome_INCLUDE_binary=y
+CONFIG_PACKAGE_luci-app-autoreboot=y
+CONFIG_PACKAGE_luci-app-mosdns=y
+
+# 流量统计(可能会有冲突)
+
+# 内核模块调整
+CONFIG_PACKAGE_kmod-usb3=y
+CONFIG_PACKAGE_kmod-usb-audio=y
+CONFIG_PACKAGE_kmod-usb-core=y
+CONFIG_PACKAGE_kmod-usb-dwc3=y
+CONFIG_PACKAGE_kmod-usb-net=y
+CONFIG_PACKAGE_kmod-usb-net-cdc-eem=y
+CONFIG_PACKAGE_kmod-usb-net-cdc-ether=y
+CONFIG_PACKAGE_kmod-usb-net-cdc-mbim=y
+CONFIG_PACKAGE_kmod-usb-net-cdc-ncm=y
+CONFIG_PACKAGE_kmod-usb-net-cdc-subset=y
+CONFIG_PACKAGE_kmod-usb-net-huawei-cdc-ncm=y
+CONFIG_PACKAGE_kmod-usb-net-ipheth=y
+CONFIG_PACKAGE_kmod-usb-net-qmi-wwan=y
+CONFIG_PACKAGE_kmod-usb-net-qmi-wwan-fibocom=y
+CONFIG_PACKAGE_kmod-usb-net-qmi-wwan-quectel=y
+CONFIG_PACKAGE_kmod-usb-net-rndis=y
+# usb rndis（远程网络驱动接口规范）支持，用于 USB 共享网络（如手机 USB 共享）
+# usb storage  USB 存储设备提供驱动支持，挂载和管理 U 盘、移动硬盘、存储卡（如 SD 卡）等 USB 存储设备
+# 组件调整
+CONFIG_PACKAGE_autocore=y
+CONFIG_PACKAGE_automount=y
+CONFIG_PACKAGE_coremark=y
+CONFIG_PACKAGE_htop=y
+CONFIG_PACKAGE_iperf3=y
