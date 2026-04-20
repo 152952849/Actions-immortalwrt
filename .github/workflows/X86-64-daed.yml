@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: daedX86-64
+name: X86-64-daed
 
 permissions: write-all
 #开启写权限，防止无法上传到release
