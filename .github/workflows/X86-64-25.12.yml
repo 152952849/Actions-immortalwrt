@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: X86-64-25.12
+name: X86-64
 
 permissions: write-all
 #开启写权限，防止无法上传到release
@@ -196,7 +196,7 @@ jobs:
       if: env.UPLOAD_RELEASE == 'true' && steps.compile.outputs.status == 'success' && !cancelled()
       run: |
         VERSION1="${REPO_BRANCH#*-}"
-        echo -e "🎉 X86-64 平台\n✅ ${VERSION1} 源码\n❗️ ip地址 : 192.168.8.1" >> release.txt
+        echo -e "🎉 X86-64 平台\n✅ ${VERSION1} 源码\n❗️ ip地址 : 192.168.2.6" >> release.txt
         echo "release_tag=$(date +"%Y.%m.%d-${VERSION1}_X86-64")" >> $GITHUB_OUTPUT
         echo "status=success" >> $GITHUB_OUTPUT
 
