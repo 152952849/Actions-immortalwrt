@@ -33,7 +33,7 @@ env:
   SETTINGS_SH: scripts/init-settings.sh
   PACKAGES_SH: scripts/packages.sh
   INSTALL5G_SH: scripts/install-5G.sh
- # HANDLES_SH: scripts/Handles.sh
+  HANDLES_SH: scripts/Handles.sh
   CLASH_CORE_SH: scripts/preset-clash-core-amd64.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: false
